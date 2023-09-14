@@ -102,10 +102,7 @@ PlayScene.inputHandler = {
     -- B button
     --
     BButtonDown = function()
-        local current_scene = Noble:currentScene()
-        current_scene:pause()
-
-        pushScreen(PanelsScreen())
+        Noble.transition(PanelsScene, 1, Noble.TransitionType.DIP_TO_BLACK)
     end,
     BButtonHeld = function()
         --

@@ -13,6 +13,8 @@ Panels.Settings.audioFolder = "assets/audio/panels/"
 import 'utilities/Utilities'
 
 import 'scenes/PlayScene'
+import 'scenes/PanelsScene'
+
 import 'screens/PanelsScreen'
 
 -- timer fix
