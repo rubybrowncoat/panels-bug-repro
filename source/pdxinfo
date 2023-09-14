@@ -1,0 +1,8 @@
+name=Panels Bug Repro
+author=Nobody Important
+description=Hello there.
+bundleID=com.repro.panels
+version=0.0.1
+buildNumber=1
+imagePath=assets/launcher/
+launchSoundPath=assets/launcher/sound.wav

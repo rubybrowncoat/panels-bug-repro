@@ -1,0 +1,16 @@
+{
+    "Lua.workspace.library": ["$PLAYDATE_SDK_PATH"],
+    "Lua.workspace.preloadFileSize": 1000,
+    "Lua.runtime.special": {
+        "import": "require"
+    },
+    "Lua.completion.requireSeparator": "/",
+    "Lua.runtime.version": "Lua 5.4",
+    "Lua.diagnostics.disable": [
+        "lowercase-global",
+        "undefined-global",
+        "undefined-field",
+        "unknown-symbol"
+    ],
+    "Lua.diagnostics.libraryFiles": "Disable"
+}
